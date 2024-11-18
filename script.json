@@ -1,0 +1,10 @@
+#! Crear base de datos
+use TorneoFutbolSala
+
+#! Crear colecciones
+db.createCollection("arbitros")
+db.createCollection("deportistas")
+db.createCollection("encuentros")
+db.createCollection("entrenadores")
+db.createCollection("equipos")
+db.createCollection("tablaPosiciones")
