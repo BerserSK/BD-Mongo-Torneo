@@ -1,0 +1,17 @@
+[{
+  "0": {
+    "Nombre": "Jose Valle",
+    "Edad": 22,
+    "Nacionalidad": "Mexicano",
+    "Tipo": "Portero"
+  },
+  "1": {
+    "Nombre": "Juan Esteban",
+    "Edad": 26,
+    "Nacionalidad": "Colombiano",
+    "Tipo": "Central/Medio"
+  },
+  "_id": {
+    "$oid": "673aa69b9f32bb9f46d82e6e"
+  }
+}]

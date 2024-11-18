@@ -1,0 +1,17 @@
+[{
+  "0": {
+    "Nombre Equipo": "Espartanos",
+    "Ciudad": "Bogota D.C",
+    "Numero Jugadores": 15,
+    "año Creacion": 1999
+  },
+  "1": {
+    "Nombre Equipo": "Bullets",
+    "Ciudad": "Pereira",
+    "Numero Jugadores": 17,
+    "año Creacion": 1985
+  },
+  "_id": {
+    "$oid": "673a96149f32bb9f46d82e6b"
+  }
+}]

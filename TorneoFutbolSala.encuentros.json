@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "673aa7bf9f32bb9f46d82e6f"
+  },
+  "fase": "Grupos",
+  "Grupo": "D",
+  "Fecha": "17/12/2024",
+  "hora": "20:00",
+  "Sede": "Medellin",
+  "Pais": "Colombia",
+  "Equipos": "Espartanos VS Bullets"
+}]

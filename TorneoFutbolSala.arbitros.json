@@ -1,0 +1,19 @@
+[{
+  "0": {
+    "Nombre": "Michael Blonde",
+    "Edad": 45,
+    "Licencia": "true",
+    "Nacionalidad": "Argentina",
+    "Tipo": "Central"
+  },
+  "1": {
+    "Nombre": "Aqua Cifuentes",
+    "Edad": 45,
+    "Licencia": "true",
+    "Nacionalidad": "Colombiano",
+    "Tipo": "Liea/Lateral"
+  },
+  "_id": {
+    "$oid": "673aa5d69f32bb9f46d82e6d"
+  }
+}]

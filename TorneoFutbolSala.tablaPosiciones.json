@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "673aa8d99f32bb9f46d82e70"
+  },
+  "Equipos": "Espartanos y Bullets",
+  "Posicion": "1. Espartanos - 2. Bullets",
+  "Partidos Espartanos": " G 1 - P2 - E 0 ",
+  "Partidos Bullets": " G 0 - P1 - E 1 "
+}]
