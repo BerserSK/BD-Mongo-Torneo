@@ -1,0 +1,42 @@
+rs.initiate(
+{
+_id:"shard1_replset",
+members: [
+{_id:0, host:"hostname:27017"},
+{_id:1, host:"hostname:27018"},
+{_id:2, host:"hostname:27019"}]}
+)
+
+rs.initiate(
+{
+_id:"configserver1_replset",
+configsvr: true,
+members: [
+{_id:0, host:"hostname:47017"},
+{_id:1, host:"hostname:47117"},
+{_id:2, host:"hostname:47217"}]}
+)
+
+
+
+rs.initiate({
+_id:"configserver1_replset",
+configsvr: true,
+members: [
+{_id:0, host:"hostname:47017"},
+{_id:1, host:"hostname:47117"},
+{_id:2, host:"hostname:47217"}]}
+)
+
+
+sh.addShard("shard_replset/localhost:47017,localhost:47018,localhost:47019")
+
+sh.enableSharding("demos")
+
+sh.shardCollection("demos.users{"id":1})
+
+use demos;
+for(var i=0;i<10000;i++){db.user.insert({id:
+Math.random(),
+count:i, date: new Date()})}
+
